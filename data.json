@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "s1",
+        "name": "Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54,
+          24
+        ]
+      }
+    }
+  ]
+}

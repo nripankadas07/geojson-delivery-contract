@@ -1,0 +1,23 @@
+[
+  {
+    "args": [
+      "data.json",
+      "contract.json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "data.json",
+      "bad-contract.json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "invalid.json",
+      "contract.json"
+    ],
+    "exit": 2
+  }
+]

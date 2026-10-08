@@ -1,0 +1,15 @@
+{
+  "id_property": "id",
+  "required_properties": [
+    "name"
+  ],
+  "geometry_types": [
+    "Point"
+  ],
+  "bounds": [
+    50,
+    20,
+    60,
+    30
+  ]
+}

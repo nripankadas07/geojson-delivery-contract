@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geojson-delivery-contract"
+version = "0.1.0"
+description = "Read-only delivery contracts for FeatureCollections: IDs, required fields, allowed geometry types, feature counts, dateline-aware bounds."
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+geojson-delivery-contract = "geojson_delivery_contract:main"
+
+[project.urls]
+Repository = "https://github.com/nripankadas07/geojson-delivery-contract"
+Issues = "https://github.com/nripankadas07/geojson-delivery-contract/issues"
+
+[tool.setuptools]
+py-modules = ["geojson_delivery_contract"]
